@@ -1,0 +1,10 @@
+<Page loaded="loaded">
+    <StackLayout orientation="vertical" verticalAlignment="center">
+        <Label text="Register for a new acccount" class="bottom-space" horizontalAlignment="center" />
+        <TextField text="{{ email }}" hint="E-mail address" keyboardType="email" autocorrect="false" autocapitalizationType="none" class="bottom-space" />
+        <TextField text="{{ password }}" hint="Password" secure="true" />
+        <TextField text="{{ confirmPassword }}" hint="Repeat password" secure="true" class="bottom-space" />
+        <Button text="Create" class="login" tap="create" />
+    </StackLayout>
+
+</Page>

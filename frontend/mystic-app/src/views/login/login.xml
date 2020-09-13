@@ -1,0 +1,9 @@
+<Page actionBarHidden="true" loaded="loaded">
+    <StackLayout orientation="vertical" verticalAlignment="center">
+        <Image src="res://logo" stretch="none"  horizontalAlignment="center" />
+        <TextField id="email" text="{{ email }}" hint="Username" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
+        <TextField od="password" text="{{ password }}" hint="Password" secure="true" class="bottom-space" />
+        <Button text="Sign in" class="login" tap="login" />
+        <Button text="Create new account" tap="register" />
+    </StackLayout>
+</Page>
